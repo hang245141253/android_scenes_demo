@@ -1,0 +1,33 @@
+scenes_demo_path=/data/local/tmp/scenes_demo
+
+cd ${scenes_demo_path} \
+           && export LD_LIBRARY_PATH=${scenes_demo_path}:${LD_LIBRARY_PATH} \
+           && ./scenes \
+                models/scenes.nb \
+                images/church.jpg
+
+cd ${scenes_demo_path} \
+           && export LD_LIBRARY_PATH=${scenes_demo_path}:${LD_LIBRARY_PATH} \
+           && ./scenes \
+                models/scenes.nb \
+                images/desert.jpg
+
+cd ${scenes_demo_path} \
+           && export LD_LIBRARY_PATH=${scenes_demo_path}:${LD_LIBRARY_PATH} \
+           && ./scenes \
+                models/scenes.nb \
+                images/ice.jpg
+
+cd ${scenes_demo_path} \
+           && export LD_LIBRARY_PATH=${scenes_demo_path}:${LD_LIBRARY_PATH} \
+           && ./scenes \
+                models/scenes.nb \
+                images/lawn.jpg
+
+cd ${scenes_demo_path} \
+           && export LD_LIBRARY_PATH=${scenes_demo_path}:${LD_LIBRARY_PATH} \
+           && ./scenes \
+                models/scenes.nb \
+                images/river.jpg
+
+rm -rf ${scenes_demo_path}
