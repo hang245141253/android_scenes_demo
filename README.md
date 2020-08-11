@@ -1,0 +1,2 @@
+# android_scenes_demo
+Paddle-Lite部署场景分类android_scenes_demo
